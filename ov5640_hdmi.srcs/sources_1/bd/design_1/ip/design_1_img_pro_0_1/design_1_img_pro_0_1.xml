@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>design_1_img_pro_0_1</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>rst_n</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>rst_n</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.RST_N.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>INSERT_VIP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.RST_N.INSERT_VIP">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>simulation.rtl</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>clk</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>clk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PHASE</spirit:name>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK.PHASE">0.000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CLK_DOMAIN</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK.CLK_DOMAIN">design_1_ov5640_capture_data_0_1_cmos_frame_clk</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK.ASSOCIATED_BUSIF"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK.ASSOCIATED_RESET"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>INSERT_VIP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.CLK.INSERT_VIP">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>simulation.rtl</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>img_in</spirit:name>
+      <spirit:displayName>img_in</spirit:displayName>
+      <spirit:description>img_in</spirit:description>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="vid_io" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="vid_io_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>DATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>img_data_in</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ACTIVE_VIDEO</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_valid_in</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>VSYNC</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>img_vs_in</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>img_out</spirit:name>
+      <spirit:displayName>img_out</spirit:displayName>
+      <spirit:description>img_out</spirit:description>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="vid_io" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="vid_io_rtl" spirit:version="1.0"/>
+      <spirit:master/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>DATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>img_data_out</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ACTIVE_VIDEO</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_valid_out</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>VSYNC</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>img_vs_out</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:modelName>img_pro</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Sun Apr 14 02:32:43 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:83680b26</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_verilogsynthesiswrapper</spirit:name>
+        <spirit:displayName>Verilog Synthesis Wrapper</spirit:displayName>
+        <spirit:envIdentifier>verilogSource:vivado.xilinx.com:synthesis.wrapper</spirit:envIdentifier>
+        <spirit:language>verilog</spirit:language>
+        <spirit:modelName>design_1_img_pro_0_1</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_verilogsynthesiswrapper_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Sun Apr 14 02:53:24 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:83680b26</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:modelName>img_pro</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Sun Apr 14 02:32:43 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:d3288517</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_verilogsimulationwrapper</spirit:name>
+        <spirit:displayName>Verilog Simulation Wrapper</spirit:displayName>
+        <spirit:envIdentifier>verilogSource:vivado.xilinx.com:simulation.wrapper</spirit:envIdentifier>
+        <spirit:language>verilog</spirit:language>
+        <spirit:modelName>design_1_img_pro_0_1</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_verilogsimulationwrapper_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Sun Apr 14 02:53:24 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:d3288517</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>clk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>rst_n</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>img_vs_in</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>img_clken_in</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_valid_in</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>img_data_in</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">23</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>img_vs_out</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>reg</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>img_clken_out</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>reg</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_valid_out</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>reg</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>img_data_out</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">23</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>reg</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
+      <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
+      <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/ip/shift_RAM_3X3_1bit/shift_RAM_3X3_1bit.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/img_pro/dilation.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/img_pro/im2bw.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/img_pro/rgb2yuv1.0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/ip/img_pro.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_verilogsynthesiswrapper_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>synth/design_1_img_pro_0_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/ip/shift_RAM_3X3_1bit/shift_RAM_3X3_1bit.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/img_pro/dilation.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/img_pro/im2bw.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/img_pro/rgb2yuv1.0.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../../../../../../Project/ZYNQ/my_ip/img_pro/img_pro/img_pro.srcs/sources_1/imports/ip/img_pro.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_verilogsimulationwrapper_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sim/design_1_img_pro_0_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>img_pro_v1_0</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">design_1_img_pro_0_1</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:displayName>img_pro_v1_0</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:coreRevision>14</xilinx:coreRevision>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b0f89cc_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5066a52a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@aaacdc2_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f05296a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@665bda3e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7679e1af_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a08e43f_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4da5e121_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e0ca41f_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e5f9016_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43029d70_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7789e38_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a273097_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42506dc9_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17a1b084_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41f06157_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62dd958d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f86b593_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@450e3ddd_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ca693b5_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ff12908_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62b441c7_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e38b3ee_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f4b5513_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e79e381_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@745a16c8_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9d1c00_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4763f3b3_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@294d391a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@358314c2_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60b29cce_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c81584a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@206c6f15_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c0cc9b1_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30f04588_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8c1c44e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57567535_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d4d0f0f_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10ea8c21_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5feb8d5c_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e103932_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@217e6539_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@dca4629_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c34ff2b_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ddf04cf_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c2991a3_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32b79478_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3628ac0a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@306ce93_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64aa6131_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f0571e2_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4aaeb154_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69ea63d2_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a3fda6a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79da0a06_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e4ca07f_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@182785b_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fc99ed_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@472b1095_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20a658ef_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24d2063_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b0fcf20_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b83a81d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b7c1aa8_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f02e464_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1dc0b66f_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d0615df_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6606d1d6_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3904cf89_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6787bbd5_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@404638d9_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@672a113_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62d7cc52_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73ef7ac3_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d981c8a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@138e64bd_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4650329a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74a84f8d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c17b1b3_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fea466a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1771eaa1_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16668eac_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@443e87c1_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18e3ef28_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46c17430_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b3e056e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c0693dd_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@95c3bb4_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28a523b0_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cb90c5a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c9ddce0_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@264dc1ba_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32418a42_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4648b486_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@452f20c5_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f064414_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50145786_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@500d72e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d2638f4_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76966ca9_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19caa884_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7218c440_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3faa97c8_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a06e62a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e6f9f39_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72c4767d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54b87b8a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56b925bf_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@86c7978_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48af16fc_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4af3fa87_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46797ef6_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d64c01_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5579618f_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4049d7a_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4622be19_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e1d5631_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3fd2b7a8_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3839a4fd_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58eb5b13_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66d8b098_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72c4673e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a203bc7_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d535c90_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@340f519_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@173aa217_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4628077_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c7a8ed8_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e68655e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@399332a8_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@642830cc_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@643e3a56_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20ec363b_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@442e859b_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f41ea55_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49271f83_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@339668e1_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56f3a6a6_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52e9077c_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@482eb98c_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fed0760_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@573aac47_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54b57aba_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5695589b_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57b6be3e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@312b1403_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a02466d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78a0b702_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@477b572e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11aa6c6e_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d1d1f3d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@743c74fc_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@148017f9_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13635ffb_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a730bf5_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f1070d5_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b4d20d9_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ceb2503_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75cf4779_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@459359d7_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a74d3f9_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72f19727_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@311e9a9d_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ffab9ea_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@487432a7_ARCHIVE_LOCATION">d:/project/zynq/my_ip/img_pro/img_pro/img_pro.srcs/sources_1</xilinx:tag>
+      </xilinx:tags>
+      <xilinx:configElementInfos>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd_and_user"/>
+      </xilinx:configElementInfos>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2018.3</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="badf6ba4"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="d553ee60"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="e36d73e1"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="19af20ed"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

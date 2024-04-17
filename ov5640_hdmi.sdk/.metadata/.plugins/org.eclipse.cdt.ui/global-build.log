@@ -1,0 +1,2156 @@
+19:26:23 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:27:20 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:27:36 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:28:25 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21928	   1144	  22568	  45640	   b248	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:28:28 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:28:34 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:30:25 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31796	   2184	  22632	  56612	   dd24	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:30:32 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:30:41 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:30:57 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21928	   1144	  22568	  45640	   b248	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:30:58 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:33:30 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22056	   1144	  22568	  45768	   b2c8	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:33:48 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22248	   1144	  22568	  45960	   b388	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:33:54 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:33:58 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:34:03 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:37:12 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22184	   1144	  22568	  45896	   b348	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:37:13 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:37:16 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:37:41 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22248	   1144	  22568	  45960	   b388	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:37:42 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:37:44 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:38:28 **** Auto Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: video_test2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test2_bsp/ps7_cortexa9_0/lib -o "video_test2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test2.elf  |tee "video_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22248	   1144	  22568	  45960	   b388	video_test2.elf
+'Finished building: video_test2.elf.size'
+' '
+19:38:39 **** Incremental Build of configuration Debug for project video_test2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:40:09 **** Build of project video_test3_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axivdma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling video timing controller"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+19:40:20 **** Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: video_test3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test3_bsp/ps7_cortexa9_0/lib -o "video_test3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test3.elf  |tee "video_test3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	video_test3.elf
+'Finished building: video_test3.elf.size'
+' '
+19:40:30 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:40:41 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:40:54 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:42:23 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:44:35 **** Auto Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: video_test3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test3_bsp/ps7_cortexa9_0/lib -o "video_test3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test3.elf  |tee "video_test3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22056	   1144	  22568	  45768	   b2c8	video_test3.elf
+'Finished building: video_test3.elf.size'
+' '
+19:44:37 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:44:42 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:45:20 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:01:36 **** Auto Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../video_test3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: video_test3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../video_test3_bsp/ps7_cortexa9_0/lib -o "video_test3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: video_test3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size video_test3.elf  |tee "video_test3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22048	   1144	  22568	  45760	   b2c0	video_test3.elf
+'Finished building: video_test3.elf.size'
+' '
+20:01:41 **** Incremental Build of configuration Debug for project video_test3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:08:19 **** Build of project ov5640_hdmi_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling video timing controller"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:08:30 **** Clean-only build of configuration Debug for project ov5640_hdmi ****
+make clean 
+rm -rf  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o  ./src/vdma_api/vdma_api.d  ./src/ov5640/ov5640_init.d  ./src/emio_sccb_cfg/emio_sccb_cfg.d  ./src/dynclk/dynclk.d  ./src/display_ctrl_hdmi/display_ctrl.d  ./src/main.d  ov5640_hdmi.elf.size  ov5640_hdmi.elf
+' '
+20:08:30 **** Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/vdma_api/vdma_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vdma_api/vdma_api.d" -MT"src/vdma_api/vdma_api.o" -o "src/vdma_api/vdma_api.o" "../src/vdma_api/vdma_api.c"
+'Finished building: ../src/vdma_api/vdma_api.c'
+' '
+'Building file: ../src/ov5640/ov5640_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640/ov5640_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640/ov5640_init.d" -MT"src/ov5640/ov5640_init.o" -o "src/ov5640/ov5640_init.o" "../src/ov5640/ov5640_init.c"
+'Finished building: ../src/ov5640/ov5640_init.c'
+' '
+'Building file: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/emio_sccb_cfg/emio_sccb_cfg.d" -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -o "src/emio_sccb_cfg/emio_sccb_cfg.o" "../src/emio_sccb_cfg/emio_sccb_cfg.c"
+'Finished building: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl_hdmi/display_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl_hdmi/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl_hdmi/display_ctrl.d" -MT"src/display_ctrl_hdmi/display_ctrl.o" -o "src/display_ctrl_hdmi/display_ctrl.o" "../src/display_ctrl_hdmi/display_ctrl.c"
+'Finished building: ../src/display_ctrl_hdmi/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25744	  91948	  1672c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+20:08:34 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:08:49 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:09:06 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:10:15 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:12:09 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25744	  91948	  1672c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+20:12:11 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:12:16 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:14:23 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:15:29 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:17:23 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:18:28 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:21:33 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62752	   1296	  23000	  87048	  15408	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+20:22:12 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:36:42 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:38:19 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:46:5: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+  if(status == 0)
+     ^~~~~~
+     XStatus
+../src/main.c:46:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:38:54 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:4: warning: 'status' is used uninitialized in this function [-Wuninitialized]
+  if(status == 0)
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64648	   1296	  23000	  88944	  15b70	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+20:39:05 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64648	   1296	  23000	  88944	  15b70	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+20:39:08 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:39:14 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64648	   1296	  23000	  88944	  15b70	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+20:39:18 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:40:30 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:42:43 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:43:05 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:18:38 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:54:00 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64644	   1296	  23000	  88940	  15b6c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+10:54:06 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:26:14 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64644	   1296	  23000	  88940	  15b6c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+14:27:53 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64720	   1296	  23032	  89048	  15bd8	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+14:33:20 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:31 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64728	   1296	  23032	  89056	  15be0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+14:34:36 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64728	   1296	  23032	  89056	  15be0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+14:34:39 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:44 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:35:03 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:27:07 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:27:29 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:27:45 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64728	   1296	  23032	  89056	  15be0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:27:51 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:28:43 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:49:34 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:54:27 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64728	   1296	  23032	  89056	  15be0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:54:36 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64512	   1296	  23032	  88840	  15b08	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:55:29 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:55:37 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:55:55 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:57:11 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64732	   1296	  25776	  91804	  1669c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:57:14 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:57:40 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64732	   1296	  25776	  91804	  1669c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:57:44 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:58:00 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64732	   1296	  25776	  91804	  1669c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:58:02 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:58:41 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:00:48 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:03:30 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:04:04 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64732	   1296	  25776	  91804	  1669c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+17:04:10 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:23:25 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:27:11 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:37:27 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62956	   1296	  23032	  87284	  154f4	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+17:38:12 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:40:21 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: pwm_ip.h: No such file or directory
+ #include "pwm_ip.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:40:46 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: pwm_ip.h: No such file or directory
+ #include "pwm_ip.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:41:24 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62952	   1296	  23032	  87280	  154f0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+17:41:37 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:51:47 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: pwm_ip.h: No such file or directory
+ #include "pwm_ip.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:51:59 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64732	   1296	  25776	  91804	  1669c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+18:05:54 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+18:06:07 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:36:10 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:36:19 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:20:07 **** Build of project ov5640_hdmi_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling video timing controller"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+15:20:17 **** Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/vdma_api/vdma_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vdma_api/vdma_api.d" -MT"src/vdma_api/vdma_api.o" -o "src/vdma_api/vdma_api.o" "../src/vdma_api/vdma_api.c"
+'Finished building: ../src/vdma_api/vdma_api.c'
+' '
+'Building file: ../src/ov5640/ov5640_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640/ov5640_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640/ov5640_init.d" -MT"src/ov5640/ov5640_init.o" -o "src/ov5640/ov5640_init.o" "../src/ov5640/ov5640_init.c"
+'Finished building: ../src/ov5640/ov5640_init.c'
+' '
+'Building file: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/emio_sccb_cfg/emio_sccb_cfg.d" -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -o "src/emio_sccb_cfg/emio_sccb_cfg.o" "../src/emio_sccb_cfg/emio_sccb_cfg.c"
+'Finished building: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl_hdmi/display_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl_hdmi/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl_hdmi/display_ctrl.d" -MT"src/display_ctrl_hdmi/display_ctrl.o" -o "src/display_ctrl_hdmi/display_ctrl.o" "../src/display_ctrl_hdmi/display_ctrl.c"
+'Finished building: ../src/display_ctrl_hdmi/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+15:20:39 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:26:33 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:51:12: error: called object is not a function or function pointer
+   status = 0( cmos_h_pixel,  //初始化ov5640
+            ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:27:23 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:51:12: error: called object is not a function or function pointer
+   status = 0( cmos_h_pixel,  //初始化ov5640
+            ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:27:38 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:51:12: error: called object is not a function or function pointer
+   status = 0( cmos_h_pixel,  //初始化ov5640
+            ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:27:48 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:51:12: error: called object is not a function or function pointer
+   status = 0( cmos_h_pixel,  //初始化ov5640
+            ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:27:53 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:28:11 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:28:54 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+19:20:13 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:32:34 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:44:25 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:49:14 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:49:16 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:49:55 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:49:58 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:50:30 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:50:32 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:51:01 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:51:02 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:51:53 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:51:54 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:52:56 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:52:57 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:53:37 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:53:39 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:54:34 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+16:54:36 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:55:08 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:03:28 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:03:50 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:30:15 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:30:17 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:30:47 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:05:37 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:06:10 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:06:49 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:07:34 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:08:53 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:08:56 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:09:24 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:60:13: error: 'VMODE_1280x640' undeclared (first use in this function); did you mean 'VMODE_1280x720'?
+   vd_mode = VMODE_1280x640;
+             ^~~~~~~~~~~~~~
+             VMODE_1280x720
+../src/main.c:60:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:09:42 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:09:47 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:11:30 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:11:46 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:11:48 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:12:12 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:12:13 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:12:49 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:39:7: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   u32 status;
+       ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64784	   1296	  25776	  91856	  166d0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:13:06 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:13:08 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:13:31 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64908	   1296	  25776	  91980	  1674c	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:13:32 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:15:53 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64784	   1296	  25776	  91856	  166d0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:21:41 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:60:13: error: 'VMODE_480x640' undeclared (first use in this function); did you mean 'VMODE_800x600'?
+   vd_mode = VMODE_480x640;
+             ^~~~~~~~~~~~~
+             VMODE_800x600
+../src/main.c:60:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:21:51 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64784	   1296	  25776	  91856	  166d0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:21:54 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:25:09 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64784	   1296	  25776	  91856	  166d0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:25:10 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:25:35 **** Auto Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ov5640_hdmi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ov5640_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_hdmi_bsp/ps7_cortexa9_0/lib -o "ov5640_hdmi.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl_hdmi/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_hdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ov5640_hdmi.elf  |tee "ov5640_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64784	   1296	  25776	  91856	  166d0	ov5640_hdmi.elf
+'Finished building: ov5640_hdmi.elf.size'
+' '
+11:25:37 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:42:45 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:48:40 **** Incremental Build of configuration Debug for project ov5640_hdmi ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

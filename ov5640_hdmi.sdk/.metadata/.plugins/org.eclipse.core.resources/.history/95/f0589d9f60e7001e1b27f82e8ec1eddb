@@ -1,0 +1,67 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "xparameters.h"
+#include "xaxivdma.h"
+#include "xaxivdma_i.h"
+#include "display_ctrl_hdmi/display_ctrl.h"
+#include "vdma_api/vdma_api.h"
+#include "emio_sccb_cfg/emio_sccb_cfg.h"
+#include "ov5640/ov5640_init.h"
+
+#include "xgpiops.h"
+#include "sleep.h"
+
+
+#define LED_DEVICE_ID XPAR_XGPIOPS_0_DEVICE_ID
+
+XGpioPs Gpio;
+
+
+int main(void)
+{
+	xil_printf("Im'ok\r\n");
+
+
+	int Status;
+		XGpioPs_Config *ConfigPtr;
+
+		/* Initialize the GPIO driver. */
+		ConfigPtr = XGpioPs_LookupConfig(LED_DEVICE_ID);
+		Status = XGpioPs_CfgInitialize(&Gpio, ConfigPtr,
+							ConfigPtr->BaseAddr);
+			if (Status != XST_SUCCESS) {
+				return XST_FAILURE;
+			}
+		XGpioPs_SetDirectionPin(&Gpio, 56, 1);		//	设置引脚输出方向为 output
+		XGpioPs_SetOutputEnablePin(&Gpio, 56, 1);	//	输出使能
+
+
+		while(1){
+
+				xil_printf("PWM_IP Test!\n");
+				XGpioPs_WritePin(&Gpio, 56, 0x1);			//	点亮led
+				sleep(1);
+				XGpioPs_WritePin(&Gpio, 56, 0x0);			//	点亮led
+				sleep(1);
+			}
+
+
+
+
+
+
+//	u32 status = 1;
+//
+//	if(status == 0)
+//		xil_printf("OV5640 detected successful!\r\n");
+//	else
+//		xil_printf("OV5640 detected failed!\r\n");
+
+
+    return 0;
+}
+

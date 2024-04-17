@@ -1,0 +1,58 @@
+//
+
+#include "stdio.h"
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "pwm_ip.h"
+#include "sleep.h"
+#include "xgpiops.h"
+
+
+#define PWM_IP_BASEADDR		XPAR_PWM_IP_0_S00_AXI_BASEADDR	//PWM IP基地址
+#define PWM_IP_REG0			PWM_IP_S00_AXI_SLV_REG0_OFFSET	//PWM IP寄存器地址1
+#define PWM_IP_REG1			PWM_IP_S00_AXI_SLV_REG1_OFFSET	//PWM IP寄存器地址2
+
+#define LED_DEVICE_ID XPAR_XGPIOPS_0_DEVICE_ID
+
+XGpioPs Gpio;
+
+
+int main(){
+
+	PWM_IP_mWriteReg(PWM_IP_BASEADDR,PWM_IP_REG1,0x0000001f);
+
+
+	int Status;
+	XGpioPs_Config *ConfigPtr;
+
+	/* Initialize the GPIO driver. */
+	ConfigPtr = XGpioPs_LookupConfig(LED_DEVICE_ID);
+	Status = XGpioPs_CfgInitialize(&Gpio, ConfigPtr,
+						ConfigPtr->BaseAddr);
+		if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+
+	XGpioPs_SetDirectionPin(&Gpio, 54, 1);		//	设置引脚输出方向为 output
+	XGpioPs_SetOutputEnablePin(&Gpio, 54, 1);	//	输出使能
+
+
+
+	xil_printf("Im'fine\r\n");
+
+	while(1){
+
+		xil_printf("PWM_IP Test!\n");
+		XGpioPs_WritePin(&Gpio, 54, 0x1);			//	点亮led
+		sleep(1);
+		XGpioPs_WritePin(&Gpio, 54, 0x0);			//	点亮led
+		sleep(1);
+	}
+	return 0;
+}
+
+
+
+
+

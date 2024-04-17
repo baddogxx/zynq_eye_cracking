@@ -1,0 +1,22 @@
+#include "stdio.h"
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+
+#include "sleep.h"
+
+
+
+int main(){
+
+
+
+	while(1){
+
+		xil_printf("PWM_IP Test!\n");
+
+		sleep(1);
+	}
+
+}
+
